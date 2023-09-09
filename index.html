@@ -100,6 +100,50 @@
             object-fit: cover;
             border-radius: 50%;
         }
+
+        @media screen and (max-width: 600px) {
+            nav {
+                display: flex;
+                height: 200px;
+                width: 650px;
+            }
+
+            .left img {
+                width: 100px;
+                height: 100px;
+                margin-top: -20px;
+                margin-left: -40px;
+
+            }
+
+            .lefttext {
+                font-size: 20px;
+                margin-top: 20px;
+                margin-left: -40px;
+            }
+
+            nav ul {
+                display: flex;
+
+            }
+
+            nav ul li {
+                font-size: 20px;
+                margin-left: 8px;
+                margin-right: 8px;
+
+            }
+
+            .firstsection{
+                margin-top: -80px;
+                margin-left: -10px;
+            }
+            .leftsection{
+                margin-right: 80px;
+            }
+
+
+        }
     </style>
 </head>
 
@@ -108,7 +152,7 @@
         <nav>
             <div class="left">
                 <img src="profile.jpg" alt="">
-                Aditya's Portfolio
+                <div class="lefttext">Aditya's Portfolio</div>
             </div>
             <div class="right">
                 <ul>
