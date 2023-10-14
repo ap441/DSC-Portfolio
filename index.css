@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(42, 42, 56);
+    color: white;
+    font-family: 'Fira Mono', sans-serif;
+    height: 762px;
+}
+
+nav {
+    display: inline-block;
+    align-items: center;
+    height: 762px;
+    width: 400px;
+    background-color: rgb(38, 38, 51);
+
+}
+
+nav ul {
+    display: block;
+    justify-content: left;
+    margin: 100px 0;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 1px 0 10px 100px;
+    font-size: 2rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(161, 161, 240);
+    font-size: 2.1rem;
+}
+
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: -600px 2px 0 500px;
+}
+
+.left {
+    margin: 20px 0 0 80px;
+}
+
+.firstsection>div {
+    width: 30%;
+
+}
+
+.leftsection {
+    margin-top: 150px;
+    font-size: 2.5rem;
+}
+
+.rightsection img {
+    width: 80%;
+
+}
+
+.purple {
+    color: blueviolet;
+}
+
+#element {
+    color: blueviolet;
+}
+
+.left img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+@media screen and (max-width: 600px) {
+    nav {
+        display: flex;
+        height: 200px;
+        width: 650px;
+    }
+
+    .left img {
+        width: 100px;
+        height: 100px;
+        margin-top: -20px;
+        margin-left: -40px;
+
+    }
+
+    .lefttext {
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: -40px;
+    }
+
+    nav ul {
+        display: flex;
+
+    }
+
+    nav ul li {
+        font-size: 20px;
+        margin-left: 8px;
+        margin-right: 8px;
+
+    }
+
+    .firstsection{
+        margin-top: -80px;
+        margin-left: -10px;
+    }
+    .leftsection{
+        margin-right: 80px;
+    }
+}
